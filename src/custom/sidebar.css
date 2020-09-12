@@ -1,0 +1,40 @@
+.sidebar{
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    flex: 2
+}
+
+.sidebar__userInfo{
+	display: flex;
+	align-items: center;
+}
+
+.sidebar__userInfo h5{
+	margin-left: 10px;
+	font-size: 15px;
+	/*margin-top: 7px*/
+}
+
+.sidebar__option{
+    display: flex;
+    align-content: center;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.sidebar__option:hover{
+    background-color: white;
+}
+
+.sidebar__option img{
+    height: 30px;
+}
+
+.sidebar__option h3{
+    font-weight: 900;
+    padding-left: 10px;
+    position: relative;
+    top: 3px;
+}

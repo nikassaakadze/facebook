@@ -1,0 +1,19 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    cursor: pointer;
+    
+}
+
+.sidebarRow > p{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0
+}
+
+.sidebarRow .MuiSvgIcon-root{
+    font-size: 25px;
+    color: #2e81f4;
+}

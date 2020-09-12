@@ -1,0 +1,71 @@
+.addPost{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px -1px rgba(71, 71, 71, 0.75);
+    width: 75%;
+    padding: 20px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.addPost__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F0F2F5;
+    padding: 15px;
+}
+
+.addPost__header form{
+    flex: 1;
+    display: flex;
+}
+
+.addPost__header form input{
+    outline: 0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    background-color: #F0F2F5;
+    flex: 1
+}
+
+.addPost__header > form > button{
+    display: none;
+}
+
+.addPost__avatar{
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.addPost__input{
+    width: 100%;
+}
+
+.addPost__footer{
+    width: 100%;
+    display: flex;
+    padding: 15px 15px 5px 15px;
+    justify-content: space-between;
+}
+
+.addPost__option{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.addPost__option > h5{
+    margin-left: 10px;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+
+.addPost__option .MuiSvgIcon-root{
+    font-size: 30px
+}
